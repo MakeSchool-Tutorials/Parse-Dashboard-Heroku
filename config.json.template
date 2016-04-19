@@ -1,21 +1,23 @@
 {
   "apps": [
     {
-      "serverURL": "{{SERVER_URL}}",
-      "appId": "{{APP_ID}}",
-      "masterKey": "{{MASTER_KEY}}"
+      "serverURL": "{{{SERVER_URL}}}",
+      "appId": "{{{APP_ID}}}",
+      "appName": "{{{APP_ID}}}",
+      "masterKey": "{{{MASTER_KEY}}}"
     },
     {
-      "serverURL": "{{SERVER_URL}}",
-      "appId": "{{APP_ID}}",
-      "masterKey": "{{MASTER_KEY}}",
+      "serverURL": "{{{SERVER_URL}}}",
+      "appId": "{{{APP_ID}}}",
+      "appName": "{{{APP_ID}}} Production",
+      "masterKey": "{{{MASTER_KEY}}}",
       "production": true
     }
   ],
   "users": [
     {
-      "user":"{{USERNAME}}",
-      "pass":"{{PASSWORD}}"
+      "user":"{{{USERNAME}}}",
+      "pass":"{{{PASSWORD}}}"
     }
   ]
 }
