@@ -1,0 +1,23 @@
+{
+  "apps": [
+    {
+      "serverURL": "{{SERVER_URL}}",
+      "appId": "{{APP_ID}}",
+      "masterKey": "{{MASTER_KEY}}",
+      "appName": "{{APP_NAME}} Development"
+    },
+    {
+      "serverURL": "{{SERVER_URL}}",
+      "appId": "{{APP_ID}}",
+      "masterKey": "{{MASTER_KEY}}",
+      "appName": "{{APP_NAME}} Production",
+      "production": true
+    }
+  ],
+  "users": [
+    {
+      "user":"{{USERNAME}}",
+      "pass":"{{PASSWORD}}"
+    }
+  ]
+}

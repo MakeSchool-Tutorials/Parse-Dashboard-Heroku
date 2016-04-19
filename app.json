@@ -1,0 +1,37 @@
+{
+  "name": "Parse Dashbard One Click Install",
+  "description": "An example Parse Dashboard server using the parse-dashboard module",
+  "repository": "https://github.com/jkatzer/parse-dashboard-heroku",
+  "env": {
+    "PARSE_MOUNT": {
+      "description": "Configure Parse API route.",
+      "value": "/parse"
+    },
+    "APP_ID": {
+      "description": "A unique identifier for your app.",
+      "value": "myAppId"
+    },
+    "MASTER_KEY": {
+      "description": "A key that overrides all permissions. Keep this secret.",
+      "value": "myMasterKey"
+    },
+    "SERVER_URL": {
+      "description": "URL to connect to your Heroku instance (update with your app's name + PARSE_MOUNT)",
+      "value": "http://yourappname.herokuapp.com/parse"
+    },
+    "APP_NAME": {
+      "description": "Friendly Name for your app",
+      "value": "My App"
+    },
+    "USERNAME": {
+      "description": "Username to login to your parse dashboard",
+      "value": ""
+    },
+    "PASSWORD": {
+      "description": "Password to login to your parse dashboard",
+      "value": ""
+    }
+  },
+  "image": "heroku/nodejs",
+  "addons": ["mongolab"]
+}
