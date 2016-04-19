@@ -3,14 +3,12 @@
     {
       "serverURL": "{{SERVER_URL}}",
       "appId": "{{APP_ID}}",
-      "masterKey": "{{MASTER_KEY}}",
-      "appName": "{{APP_NAME}} Development"
+      "masterKey": "{{MASTER_KEY}}"
     },
     {
       "serverURL": "{{SERVER_URL}}",
       "appId": "{{APP_ID}}",
       "masterKey": "{{MASTER_KEY}}",
-      "appName": "{{APP_NAME}} Production",
       "production": true
     }
   ],
