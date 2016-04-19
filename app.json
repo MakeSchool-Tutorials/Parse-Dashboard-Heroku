@@ -1,5 +1,5 @@
 {
-  "name": "Parse Dashbard One Click Install",
+  "name": "Parse Dashbard Heroku",
   "description": "An example Parse Dashboard server using the parse-dashboard module",
   "repository": "https://github.com/jkatzer/parse-dashboard-heroku",
   "env": {
