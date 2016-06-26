@@ -1,7 +1,7 @@
 {
   "name": "Parse Dashbard Heroku",
   "description": "An example Parse Dashboard server using the parse-dashboard module",
-  "repository": "https://github.com/jkatzer/parse-dashboard-heroku",
+  "repository": "https://github.com/MakeSchool-Tutorials/Parse-Dashboard-Heroku/",
   "env": {
     "APP_ID": {
       "description": "Use the value from your parse setup",
